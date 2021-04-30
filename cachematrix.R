@@ -9,8 +9,6 @@ set <- function(y){
   inver<<-NULL
 }
 get <- function()x
-#need to figure out if solve of inverse should be used
-#how to update
 setinverse <- function(solve) inver <<-solve
 getinverse <- function()inver
 list(set=set,get=get,setinverse=setinverse,getinverse=getinverse)
